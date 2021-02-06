@@ -1,0 +1,21 @@
+# .ls-lint.yml
+
+ls:
+    src:
+        .dir: regex:[a-z0-9\-]+
+        .tsx: regex:index | PascalCase
+        .test.tsx: regex:index | PascalCase
+        .ts: camelCase
+        .test.ts: camelCase
+        .d.ts: kebab-case
+        .css: kebab-case
+        .scss: regex:[_a-z\-]+
+        .module.scss: PascalCase
+        .html: kebab-case
+        .json: kebab-case
+        .md: regex:[A-Z]+
+        .lock: kebab-case
+        .yml: kebab-case
+        .svg: kebab-case
+        .png: kebab-case
+        .jpg: kebab-case
