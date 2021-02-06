@@ -26,7 +26,7 @@
     "lint:script": "eslint --fix --resolve-plugins-relative-to .",
     "lint:style": "stylelint --fix",
     "lint:all:script": "yarn lint:script  --ext ts,tsx .",
-    "lint:all:style": "yarn lint:stylelint \"src/**/*.{css,scss}\""
+    "lint:all:style": "yarn lint:style \"src/**/*.{css,scss}\""
   },
   "lint-staged": {
     "*.ts?(x)": [
@@ -69,6 +69,12 @@
     "husky": "5.0.8",
     "lint-staged": "10.5.4",
     "node-sass": "5.0.0",
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "stylelint": "13.9.0",
+    "stylelint-config-airbnb": "0.0.0",
+    "stylelint-config-css-modules": "2.2.0",
+    "stylelint-config-prettier": "8.0.2",
+    "stylelint-config-recess-order": "2.3.0",
+    "stylelint-scss": "3.18.0"
   }
 }
