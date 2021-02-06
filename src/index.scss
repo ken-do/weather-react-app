@@ -1,0 +1,12 @@
+@import 'design/_fonts.scss';
+
+body {
+    margin: 0;
+    font-family: $system-default-font-family;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: $system-code-font-family;
+}
