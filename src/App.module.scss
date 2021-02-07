@@ -1,4 +1,4 @@
-@import 'design/_colors.scss';
+@import 'design/index.scss';
 
 .app {
     text-align: center;
@@ -25,7 +25,7 @@
 }
 
 .appLink {
-    color: $secondary-color;
+    color: $white;
 }
 
 @keyframes App-logo-spin {

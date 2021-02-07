@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from 'react-bootstrap/Button'
 import logo from './logo.svg'
 import styles from './App.module.scss'
 
@@ -10,14 +11,14 @@ function App() {
                 <p>
                     Edit <code>src/App.tsx</code> and save to reload.
                 </p>
-                <a
+                <Button
+                    variant="primary"
                     className={styles.appLink}
                     href="https://reactjs.org"
                     target="_blank"
-                    rel="noopener noreferrer"
                 >
                     Learn React
-                </a>
+                </Button>
             </header>
         </div>
     )
