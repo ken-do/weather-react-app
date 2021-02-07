@@ -21,6 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "preinstall": "node ./scripts/checkYarn.js",
     "postinstall": "husky install",
     "format": "yarn prettier --write src",
     "lint:script": "eslint --fix --resolve-plugins-relative-to .",
