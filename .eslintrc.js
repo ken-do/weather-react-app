@@ -47,13 +47,13 @@ module.exports = {
         'promise/catch-or-return': 'warn',
         'promise/prefer-await-to-then': 'warn',
         'promise/prefer-await-to-callbacks': 'warn',
-    },
-    overrides: [
-        {
-            files: ['src/**/*.tsx'],
-            rules: {
-                '@typescript-eslint/explicit-module-boundary-types': 'off',
+        'no-param-reassign': [
+            'error',
+            {
+                props: true,
+                ignorePropertyModificationsFor: ['state'], // reassign `state` param is a common practice in redux-toolkit
             },
-        },
-    ],
+        ],
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
+    },
 }
