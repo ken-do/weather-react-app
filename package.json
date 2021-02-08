@@ -36,6 +36,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "coverage": "yarn test  --collectCoverage",
     "eject": "react-scripts eject",
     "preinstall": "node ./scripts/checkYarn.js",
     "postinstall": "husky install",
