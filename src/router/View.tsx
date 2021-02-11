@@ -5,8 +5,8 @@ import routes from './routes'
 const View = () => {
     return (
         <Switch>
-            {Object.entries(routes).map(([key, route]) => (
-                <Route key={key} exact path={route.path}>
+            {routes.map((route) => (
+                <Route key={route.key} exact path={route.path}>
                     <route.layout>
                         <route.view />
                     </route.layout>

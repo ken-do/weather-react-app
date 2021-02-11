@@ -1,26 +1,40 @@
-// layouts
-import Basic from './layouts/Basic'
-// views
-import Home from './views/Home'
-import NotFound from './views/NotFound'
-import Location from './views/Location'
+import { ComponentType } from 'react'
+import { PATH } from 'utils/constants'
+import { Plain, Search } from './layouts'
+import { Home, NotFound, Location, Weather } from './views'
 
-const routes = {
-    home: {
-        path: '/',
+interface Route {
+    key: string
+    path: string
+    view: ComponentType
+    layout: ComponentType
+}
+
+const routes: Route[] = [
+    {
+        key: 'home',
+        path: PATH.home,
         view: Home,
-        layout: Basic,
+        layout: Plain,
     },
-    location: {
-        path: '/location/:id(\\d+)?',
+    {
+        key: 'location',
+        path: `${PATH.location}`,
         view: Location,
-        layout: Basic,
+        layout: Search,
     },
-    notFound: {
+    {
+        key: 'weather',
+        path: `${PATH.weather}/:woeid(\\d+)?`,
+        view: Weather,
+        layout: Search,
+    },
+    {
+        key: 'not-found',
         path: '*',
         view: NotFound,
-        layout: Basic,
+        layout: Search,
     },
-}
+]
 
 export default routes
