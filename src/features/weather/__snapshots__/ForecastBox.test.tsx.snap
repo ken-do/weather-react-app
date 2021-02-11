@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ForecastBox should match the most recent snapshot 1`] = `
+<DocumentFragment>
+  <article
+    class="col-lg-2 col-md-2 col-sm-4-col-xs-6"
+    data-date="2021-02-07"
+  >
+    <p>
+      <span
+        class="text-success font-weight-bold"
+      >
+        Sun Feb 07 2021
+      </span>
+    </p>
+    <dl>
+      <dd
+        class="weatherstate"
+        data-original-title=""
+        title=""
+      >
+        <img
+          alt="Light Cloud"
+          src="lc.svg"
+          width="32"
+        />
+        <span
+          class="hidden-xs hidden-sm"
+        >
+           Light Cloud
+        </span>
+      </dd>
+      <dt>
+        Temperature
+      </dt>
+      <dd>
+        Max: 16°C
+        <br />
+        Min: 8°C
+      </dd>
+      <dt>
+        Wind
+      </dt>
+      <dd
+        class="wind"
+      >
+        <span
+          class="dir dir-sw"
+          title="SW"
+        />
+        ↗ 3mph
+      </dd>
+    </dl>
+  </article>
+</DocumentFragment>
+`;
