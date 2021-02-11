@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import styles from './SuggestionDropDown.module.scss'
 
 export interface Suggestion {
@@ -31,4 +31,4 @@ const SuggestionsDropdown = ({
         </ul>
     )
 }
-export default SuggestionsDropdown
+export default memo(SuggestionsDropdown)

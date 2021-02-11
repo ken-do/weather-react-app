@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from 'react'
+import React, { memo, PropsWithChildren } from 'react'
 
 const LayoutPlain = ({ children }: PropsWithChildren<unknown>) => {
     return (
@@ -10,4 +10,4 @@ const LayoutPlain = ({ children }: PropsWithChildren<unknown>) => {
     )
 }
 
-export default LayoutPlain
+export default memo(LayoutPlain)

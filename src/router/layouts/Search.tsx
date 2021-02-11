@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from 'react'
+import React, { memo, PropsWithChildren } from 'react'
 import NavBar from 'components/NavBar'
 import LocationSearchBox from 'features/search/LocationSearchBox'
 
@@ -21,4 +21,4 @@ const LayoutSearch = ({ children }: PropsWithChildren<unknown>) => {
     )
 }
 
-export default LayoutSearch
+export default memo(LayoutSearch)

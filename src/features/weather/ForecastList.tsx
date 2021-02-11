@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { LocationDetails } from 'types/data'
 import Row from 'react-bootstrap/Row'
 import { MAX_FORECASTS } from 'utils/constants'
@@ -21,4 +21,4 @@ const ForecastList = ({ locationDetails }: Props) => {
     )
 }
 
-export default ForecastList
+export default memo(ForecastList)

@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React, { memo, useMemo } from 'react'
 import { ConsolidatedWeather, NormalizedConsolidatedWeather } from 'types/data'
 import { normalizeObjectKeys } from 'utils/normalizers'
 import { dateToFriendlyDate } from 'utils/formatters'
@@ -63,4 +63,4 @@ const ForecastBox = ({ forecast }: Props) => {
         </article>
     )
 }
-export default ForecastBox
+export default memo(ForecastBox)

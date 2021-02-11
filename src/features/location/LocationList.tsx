@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { Location } from 'types/data'
 import LocationEntry from './LocationEntry'
 
@@ -16,4 +16,4 @@ const LocationList = ({ locations }: Props) => {
     )
 }
 
-export default LocationList
+export default memo(LocationList)

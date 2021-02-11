@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import Badge from 'react-bootstrap/Badge'
 import { Link } from 'react-router-dom'
 import { Location, NormalizedLocation } from 'types/data'
@@ -32,4 +32,4 @@ const LocationEntry = ({ location }: Props) => {
         </article>
     )
 }
-export default LocationEntry
+export default memo(LocationEntry)

@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React, { memo, useMemo } from 'react'
 import { LocationDetails, NormalizedLocationDetails } from 'types/data'
 import Col from 'react-bootstrap/Col'
 import { normalizeObjectKeys } from 'utils/normalizers'
@@ -27,4 +27,4 @@ const ForecastLocation = ({ locationDetails }: Props) => {
     )
 }
 
-export default ForecastLocation
+export default memo(ForecastLocation)
