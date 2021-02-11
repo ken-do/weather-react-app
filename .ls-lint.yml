@@ -2,9 +2,9 @@
 
 ls:
     src:
-        .dir: regex:[a-z0-9\-]+
-        .tsx: regex:index | PascalCase
-        .test.tsx: regex:index | PascalCase
+        .dir: regex:[a-z0-9\-_]+
+        .tsx: camelCase | PascalCase
+        .test.tsx: camelCase | PascalCase
         .ts: camelCase
         .test.ts: camelCase
         .d.ts: kebab-case
@@ -19,3 +19,6 @@ ls:
         .svg: kebab-case
         .png: kebab-case
         .jpg: kebab-case
+ignore:
+    - node_modules
+    - src/**/*/__snapshots__
