@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Plain layout should match the most recent snapshot 1`] = `
+<div>
+  <section>
+    <main
+      class="container"
+      role="main"
+    >
+      <div>
+        Hello, world
+      </div>
+    </main>
+  </section>
+</div>
+`;
