@@ -1,21 +1,24 @@
 {
     "compilerOptions": {
-        "baseUrl": "src/server",
-        "rootDir": "src",
+        "baseUrl": "src",
         "outDir": "build-server",
         "sourceMap": false,
-        "target": "ES2019",
+        "target": "es5",
         "module": "CommonJS",
         "moduleResolution": "node",
         "allowJs": false,
         "strict": true,
         "noUnusedLocals": true,
-        "experimentalDecorators": true,
         "resolveJsonModule": true,
         "esModuleInterop": true,
-        "removeComments": false,
-        "lib": ["esnext"],
-        "types": ["jest", "node"]
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "types": ["jest", "node"],
+        "jsx": "react-jsx",
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "isolatedModules": true
     },
     "include": ["src/server"],
     "exclude": ["**/*.log"]
