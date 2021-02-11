@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 import { ComponentType } from 'react'
 import { PATH } from 'utils/constants'
 import { Plain, Search } from './layouts'
