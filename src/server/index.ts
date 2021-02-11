@@ -2,12 +2,12 @@ import express, { Express } from 'express'
 import cors from 'cors'
 import path from 'path'
 import logger from 'morgan'
-import fs from 'fs'
 import { compose } from 'redux'
 import dotenv from 'dotenv'
 import createError from 'http-errors'
-// routers
-import api from './routes/api'
+import fs from 'fs'
+import api from './api'
+// import localAPI from './api.local' // use this local version for quick development
 
 dotenv.config()
 
@@ -21,7 +21,7 @@ const applyMiddlewares = (app: Express) => {
     app.use(cors())
     app.use(express.json())
     app.use(express.urlencoded({ extended: false }))
-    app.use(express.static(path.join(__dirname, 'public')))
+    app.use('/static', express.static(path.join(__dirname, '..', 'static')))
     // log only 4xx and 5xx responses to error.log
     app.use(
         logger('combined', {
@@ -38,13 +38,16 @@ const applyMiddlewares = (app: Express) => {
             stream: streamToFile('access.log'),
         })
     )
+
     return app
 }
 
-const applyRoutes = (app: Express) => {
-    if (process.env.NODE_ENV === 'development') {
-        app.use('/api', api)
-    }
+const applyAPI = (app: Express) => {
+    // to use the hard-coded db
+    // replace the following block with
+    // app.use('/api', localAPI)
+    app.use('/api', api)
+
     app.use((req, res, next) => {
         next(createError(404, 'This endpoint does not exist'))
     })
@@ -56,7 +59,7 @@ const dbPathname = path.join(__dirname, `db.json`)
 
 app.set('dbPathname', dbPathname)
 
-compose(applyRoutes, applyMiddlewares)(app)
+compose(applyAPI, applyMiddlewares)(app)
 
 const port = process.env.SERVER_WEB_PORT ?? 4000
 
