@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar should match the most recent snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar navbar-expand navbar-dark bg-dark"
+    role="navigation"
+  >
+    <div
+      class="navBarContainer container"
+    >
+      <a
+        class="navbar-brand"
+        href="/"
+      >
+        <img
+          alt="logo"
+          src="logo.svg"
+          width="32"
+        />
+        Weather React App
+      </a>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

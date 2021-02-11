@@ -1,0 +1,7 @@
+@import '/src//design/index.scss';
+
+.navBarContainer {
+    @include media-breakpoint-down(sm) {
+        flex-direction: column;
+    }
+}
