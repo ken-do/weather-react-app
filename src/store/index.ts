@@ -1,22 +1,23 @@
-/* eslint-disable global-require, @typescript-eslint/no-var-requires */
+/* eslint-disable global-require */
+/* eslint-disable @typescript-eslint/no-var-requires */
 import { configureStore } from '@reduxjs/toolkit'
 import { Middleware } from 'redux'
 import logger from 'redux-logger'
 import createSagaMiddleware from 'redux-saga'
-import rootReducer from './rootReducer'
+import reducer from './rootReducer'
 import rootSaga from './rootSaga'
 
 const sagaMiddleware = createSagaMiddleware()
 
-const appliedMiddlewares: Middleware[] = [sagaMiddleware]
+const middleware: Middleware[] = [sagaMiddleware]
 
 if (process.env.NODE_ENV === 'development') {
-    appliedMiddlewares.push(logger)
+    middleware.push(logger)
 }
 
 const store = configureStore({
-    reducer: rootReducer,
-    middleware: appliedMiddlewares,
+    reducer,
+    middleware,
 })
 
 sagaMiddleware.run(rootSaga)
