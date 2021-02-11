@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingIndicator should match the most recent snapshot 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="Loading"
+    role="status"
+    style="text-align: center;"
+  >
+    <div
+      class="m-1 spinner-grow text-primary"
+    />
+    <div
+      class="m-1 spinner-grow text-secondary"
+    />
+    <div
+      class="m-1 spinner-grow text-success"
+    />
+    <div
+      class="m-1 spinner-grow text-danger"
+    />
+    <div
+      class="m-1 spinner-grow text-warning"
+    />
+    <div
+      class="m-1 spinner-grow text-info"
+    />
+    <div
+      class="m-1 spinner-grow text-dark"
+    />
+  </div>
+</DocumentFragment>
+`;
