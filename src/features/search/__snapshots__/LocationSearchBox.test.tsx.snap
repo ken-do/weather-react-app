@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationSearchBox should match the snapshot for empty state 1`] = `
+<DocumentFragment>
+  <div
+    style="position: relative;"
+  >
+    <form
+      class="flex-nowrap form-inline"
+    >
+      <div
+        class="inputGroup input-group"
+      >
+        <input
+          class="border-right-0 rounded-0 form-control"
+          placeholder="Enter a location..."
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-success rounded-0"
+          type="button"
+        >
+          Search
+        </button>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`LocationSearchBox should match the snapshot when there are suggestions available 1`] = `
+<DocumentFragment>
+  <div
+    style="position: relative;"
+  >
+    <form
+      class="flex-nowrap form-inline"
+    >
+      <div
+        class="inputGroup input-group"
+      >
+        <input
+          class="border-right-0 rounded-0 form-control"
+          placeholder="Enter a location..."
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-success rounded-0"
+          type="button"
+        >
+          Search
+        </button>
+      </div>
+    </form>
+    <ul
+      class="list-group wrapper"
+    >
+      <li
+        class="list-group-item"
+        role="presentation"
+      >
+        San Francisco
+      </li>
+      <li
+        class="list-group-item"
+        role="presentation"
+      >
+        San Diego
+      </li>
+      <li
+        class="list-group-item"
+        role="presentation"
+      >
+        San Jose
+      </li>
+      <li
+        class="list-group-item"
+        role="presentation"
+      >
+        San Antonio
+      </li>
+      <li
+        class="list-group-item"
+        role="presentation"
+      >
+        Santa Cruz
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

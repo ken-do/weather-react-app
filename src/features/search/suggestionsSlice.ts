@@ -1,16 +1,23 @@
 import { createSlice, PayloadAction, createAction } from '@reduxjs/toolkit'
-import { call, put, takeLatest } from 'redux-saga/effects'
+import {
+    call,
+    put,
+    cancelled,
+    takeLatest,
+    cancel,
+    takeEvery,
+} from 'redux-saga/effects'
+import { Task } from 'redux-saga'
 import api, { endpoints } from 'utils/api'
+import { MAX_SUGGESTIONS } from 'utils/constants'
+import axios from 'axios'
 import { Location } from '../../types/data'
+import { getLocations } from '../location/locationsSlice'
 
 interface SuggestionsState {
     isLoading: boolean
     locations: Location[]
     error: string | null
-}
-
-interface RequestResponse {
-    data: Location[]
 }
 
 export const suggestionsInitialState: SuggestionsState = {
@@ -47,13 +54,15 @@ const suggestions = createSlice({
         getSuggestionsSuccess(state, { payload }: PayloadAction<Location[]>) {
             state.isLoading = false
             state.error = null
-            state.locations = payload
+            // only keep a defined maximum number of suggestions to reduce the amount of memory used
+            state.locations = payload.slice(0, MAX_SUGGESTIONS)
         },
         getSuggestionsFailure: loadingFailed,
     },
 })
 
-export const getSuggetions = createAction<string>('suggestions/getSuggetions')
+export const getSuggestions = createAction<string>('suggestions/getSuggestions')
+export const cancelSuggestions = createAction('suggestions/cancelSuggestions')
 
 export const {
     resetSuggestions,
@@ -64,24 +73,32 @@ export const {
 
 export function* fetchSuggestions({
     payload,
-}: ReturnType<typeof getSuggetions>) {
+}: ReturnType<typeof getSuggestions>) {
+    const source = axios.CancelToken.source()
     try {
-        yield put(getSuggestionsStart)
-        const response: RequestResponse = yield call(
-            api.get,
-            endpoints.suggestion,
-            {
-                params: { query: payload },
-            }
-        )
+        yield put(getSuggestionsStart())
+        const response = yield call(api.get, endpoints.locationSearch, {
+            params: { query: payload },
+            cancelToken: source.token,
+        })
         yield put(getSuggestionsSuccess(response.data))
     } catch (err) {
         yield put(getSuggestionsFailure(err))
+    } finally {
+        if (yield cancelled()) {
+            source.cancel()
+            yield put(resetSuggestions())
+        }
     }
 }
 
+function* cancelWorkerSaga(task: Task) {
+    yield cancel(task)
+}
+
 export function* watchFetchSuggestions() {
-    yield takeLatest(getSuggetions.type, fetchSuggestions)
+    const workerTask = yield takeEvery(getSuggestions.type, fetchSuggestions)
+    yield takeLatest(getLocations.type, cancelWorkerSaga, workerTask)
 }
 
 export default suggestions.reducer
