@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search layout should match the most recent snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <header>
+      <nav
+        class="navbar navbar-expand navbar-dark bg-dark"
+        role="navigation"
+      >
+        <div
+          class="navBarContainer container"
+        >
+          <a
+            class="navbar-brand"
+            href="/"
+          >
+            <img
+              alt="logo"
+              src="logo.svg"
+              width="32"
+            />
+            Weather React App
+          </a>
+          <div
+            style="position: relative;"
+          >
+            <form
+              class="flex-nowrap form-inline"
+            >
+              <div
+                class="inputGroup input-group"
+              >
+                <input
+                  class="border-right-0 rounded-0 form-control"
+                  placeholder="Enter a location..."
+                  type="text"
+                  value=""
+                />
+                <button
+                  class="btn btn-success rounded-0"
+                  type="button"
+                >
+                  Search
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main
+      class="container"
+      role="main"
+      style="padding: 60px 15px 0px;"
+    >
+      <div>
+        Hello, world
+      </div>
+    </main>
+  </section>
+</DocumentFragment>
+`;
