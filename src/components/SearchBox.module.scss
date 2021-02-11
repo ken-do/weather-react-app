@@ -1,0 +1,8 @@
+@import '/src//design/index.scss';
+
+.inputGroup {
+    input:focus {
+        border-color: $success;
+        box-shadow: unset;
+    }
+}

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox should clear the input value and call afterButtonClicked on button clicks 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -7,11 +7,11 @@
+      >
+        <input
+          class=\\"border-right-0 rounded-0 form-control\\"
+          placeholder=\\"Enter a location...\\"
+          type=\\"text\\"
+-         value=\\"test\\"
++         value=\\"\\"
+        />
+        <button
+          class=\\"btn btn-success rounded-0\\"
+          type=\\"button\\"
+        >"
+`;
+
+exports[`SearchBox should enlarge when passing in a lg size prop 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,11 +1,11 @@
+  <DocumentFragment>
+    <form
+      class=\\"flex-nowrap form-inline\\"
+    >
+      <div
+-       class=\\"inputGroup input-group\\"
++       class=\\"inputGroup input-group input-group-lg\\"
+      >
+        <input
+          class=\\"border-right-0 rounded-0 form-control\\"
+          placeholder=\\"Enter a location...\\"
+          type=\\"text\\""
+`;
+
+exports[`SearchBox should update the button lable based on isLoading value 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -13,10 +13,15 @@
+        />
+        <button
+          class=\\"btn btn-success rounded-0\\"
+          type=\\"button\\"
+        >
+-         Search
++         <span
++           aria-hidden=\\"true\\"
++           class=\\"mr-1 spinner-grow spinner-grow-sm\\"
++           role=\\"status\\"
++         />
++         Loading...
+        </button>
+      </div>
+    </form>
+  </DocumentFragment>"
+`;
+
+exports[`SearchBox should update the input field correctly, then invokes afterInputChanged() on change events 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -7,11 +7,11 @@
+      >
+        <input
+          class=\\"border-right-0 rounded-0 form-control\\"
+          placeholder=\\"Enter a location...\\"
+          type=\\"text\\"
+-         value=\\"\\"
++         value=\\"test\\"
+        />
+        <button
+          class=\\"btn btn-success rounded-0\\"
+          type=\\"button\\"
+        >"
+`;
