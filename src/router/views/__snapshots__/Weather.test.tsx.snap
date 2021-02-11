@@ -1,0 +1,350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weather view should fetch location details when there is a "woeid" url param 1`] = `
+<DocumentFragment>
+  <div>
+    <h1
+      class="mr-3 pr-3 align-top border-right inline-block align-content-center"
+    >
+      Data Not Available
+    </h1>
+    <div
+      class="inline-block align-middle"
+    >
+      <h2
+        class="font-weight-normal lead"
+        id="desc"
+      >
+        Weather forecasts are missing for this region.
+      </h2>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Weather view should render a loading indicator when weather data is being fetched 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="Loading"
+    role="status"
+    style="text-align: center;"
+  >
+    <div
+      class="m-1 spinner-grow text-primary"
+    />
+    <div
+      class="m-1 spinner-grow text-secondary"
+    />
+    <div
+      class="m-1 spinner-grow text-success"
+    />
+    <div
+      class="m-1 spinner-grow text-danger"
+    />
+    <div
+      class="m-1 spinner-grow text-warning"
+    />
+    <div
+      class="m-1 spinner-grow text-info"
+    />
+    <div
+      class="m-1 spinner-grow text-dark"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Weather view should show a list of weather forecasts when forecast has been fetcheds successfully 1`] = `
+<DocumentFragment>
+  <section>
+    <div
+      class="row"
+    >
+      <div
+        class="col-lg-2 col-md-2 col-sm-4 col-12"
+      >
+        <h2
+          class="text-success"
+        >
+          San Francisco
+        </h2>
+        <p>
+          3:11 PM
+        </p>
+      </div>
+      <article
+        class="col-lg-2 col-md-2 col-sm-4-col-xs-6"
+        data-date="2021-02-07"
+      >
+        <p>
+          <span
+            class="text-success font-weight-bold"
+          >
+            Sun Feb 07 2021
+          </span>
+        </p>
+        <dl>
+          <dd
+            class="weatherstate"
+            data-original-title=""
+            title=""
+          >
+            <img
+              alt="Light Cloud"
+              src="lc.svg"
+              width="32"
+            />
+            <span
+              class="hidden-xs hidden-sm"
+            >
+               Light Cloud
+            </span>
+          </dd>
+          <dt>
+            Temperature
+          </dt>
+          <dd>
+            Max: 16°C
+            <br />
+            Min: 8°C
+          </dd>
+          <dt>
+            Wind
+          </dt>
+          <dd
+            class="wind"
+          >
+            <span
+              class="dir dir-sw"
+              title="SW"
+            />
+            ↗ 3mph
+          </dd>
+        </dl>
+      </article>
+      <article
+        class="col-lg-2 col-md-2 col-sm-4-col-xs-6"
+        data-date="2021-02-08"
+      >
+        <p>
+          <span
+            class="text-success font-weight-bold"
+          >
+            Mon Feb 08 2021
+          </span>
+        </p>
+        <dl>
+          <dd
+            class="weatherstate"
+            data-original-title=""
+            title=""
+          >
+            <img
+              alt="Light Cloud"
+              src="lc.svg"
+              width="32"
+            />
+            <span
+              class="hidden-xs hidden-sm"
+            >
+               Light Cloud
+            </span>
+          </dd>
+          <dt>
+            Temperature
+          </dt>
+          <dd>
+            Max: 14°C
+            <br />
+            Min: 9°C
+          </dd>
+          <dt>
+            Wind
+          </dt>
+          <dd
+            class="wind"
+          >
+            <span
+              class="dir dir-sw"
+              title="SW"
+            />
+            ↗ 4mph
+          </dd>
+        </dl>
+      </article>
+      <article
+        class="col-lg-2 col-md-2 col-sm-4-col-xs-6"
+        data-date="2021-02-09"
+      >
+        <p>
+          <span
+            class="text-success font-weight-bold"
+          >
+            Tue Feb 09 2021
+          </span>
+        </p>
+        <dl>
+          <dd
+            class="weatherstate"
+            data-original-title=""
+            title=""
+          >
+            <img
+              alt="Light Cloud"
+              src="lc.svg"
+              width="32"
+            />
+            <span
+              class="hidden-xs hidden-sm"
+            >
+               Light Cloud
+            </span>
+          </dd>
+          <dt>
+            Temperature
+          </dt>
+          <dd>
+            Max: 12°C
+            <br />
+            Min: 9°C
+          </dd>
+          <dt>
+            Wind
+          </dt>
+          <dd
+            class="wind"
+          >
+            <span
+              class="dir dir-sw"
+              title="SW"
+            />
+            ↗ 5mph
+          </dd>
+        </dl>
+      </article>
+      <article
+        class="col-lg-2 col-md-2 col-sm-4-col-xs-6"
+        data-date="2021-02-10"
+      >
+        <p>
+          <span
+            class="text-success font-weight-bold"
+          >
+            Wed Feb 10 2021
+          </span>
+        </p>
+        <dl>
+          <dd
+            class="weatherstate"
+            data-original-title=""
+            title=""
+          >
+            <img
+              alt="Heavy Cloud"
+              src="hc.svg"
+              width="32"
+            />
+            <span
+              class="hidden-xs hidden-sm"
+            >
+               Heavy Cloud
+            </span>
+          </dd>
+          <dt>
+            Temperature
+          </dt>
+          <dd>
+            Max: 13°C
+            <br />
+            Min: 9°C
+          </dd>
+          <dt>
+            Wind
+          </dt>
+          <dd
+            class="wind"
+          >
+            <span
+              class="dir dir-sw"
+              title="SW"
+            />
+            ↗ 5mph
+          </dd>
+        </dl>
+      </article>
+      <article
+        class="col-lg-2 col-md-2 col-sm-4-col-xs-6"
+        data-date="2021-02-11"
+      >
+        <p>
+          <span
+            class="text-success font-weight-bold"
+          >
+            Thu Feb 11 2021
+          </span>
+        </p>
+        <dl>
+          <dd
+            class="weatherstate"
+            data-original-title=""
+            title=""
+          >
+            <img
+              alt="Heavy Cloud"
+              src="hc.svg"
+              width="32"
+            />
+            <span
+              class="hidden-xs hidden-sm"
+            >
+               Heavy Cloud
+            </span>
+          </dd>
+          <dt>
+            Temperature
+          </dt>
+          <dd>
+            Max: 12°C
+            <br />
+            Min: 8°C
+          </dd>
+          <dt>
+            Wind
+          </dt>
+          <dd
+            class="wind"
+          >
+            <span
+              class="dir dir-sw"
+              title="SW"
+            />
+            ↗ 4mph
+          </dd>
+        </dl>
+      </article>
+    </div>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`Weather view should show a message saying there is not data available by default or if the request failed to return any data 1`] = `
+<DocumentFragment>
+  <div>
+    <h1
+      class="mr-3 pr-3 align-top border-right inline-block align-content-center"
+    >
+      Data Not Available
+    </h1>
+    <div
+      class="inline-block align-middle"
+    >
+      <h2
+        class="font-weight-normal lead"
+        id="desc"
+      >
+        Weather forecasts are missing for this region.
+      </h2>
+    </div>
+  </div>
+</DocumentFragment>
+`;
