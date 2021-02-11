@@ -1,9 +1,17 @@
 import React from 'react'
-import { render, screen } from '@testing-library/react'
+import { render, screen } from 'utils/testUtils'
+import { LOCATION_SEARCH_PLACEHOLDER } from 'utils/constants'
 import App from './App'
 
-test('shows Home page by default', () => {
-    render(<App />)
-    const linkElement = screen.getByText(/home/i)
-    expect(linkElement).toBeInTheDocument()
+describe('Home page', () => {
+    test('should render a logo and search box', () => {
+        render(<App />)
+        const inputElement = screen.getByPlaceholderText(
+            LOCATION_SEARCH_PLACEHOLDER
+        )
+        expect(inputElement).toBeInTheDocument()
+
+        const logo = screen.getByAltText(/logo/i)
+        expect(logo).toBeInTheDocument()
+    })
 })
