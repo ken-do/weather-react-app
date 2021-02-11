@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationList should match the most recent snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="row"
+  >
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/2487956"
+      >
+        San Francisco
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/2487889"
+      >
+        San Diego
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/2488042"
+      >
+        San Jose
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/2487796"
+      >
+        San Antonio
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/2488853"
+      >
+        Santa Cruz
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/349859"
+      >
+        Santiago
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/56558361"
+      >
+        Santorini
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/773964"
+      >
+        Santander
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/1132447"
+      >
+        Busan
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/773692"
+      >
+        Santa Cruz de Tenerife
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/2488867"
+      >
+        Santa Fe
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+  </div>
+</DocumentFragment>
+`;
