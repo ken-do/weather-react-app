@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home view should match the most recent snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+  >
+    <h1
+      class="mb-4 text-center"
+    >
+      <img
+        alt="logo"
+        src="logo.svg"
+        width="64"
+      />
+      Weather React App
+    </h1>
+    <div
+      style="position: relative;"
+    >
+      <form
+        class="flex-nowrap form-inline"
+      >
+        <div
+          class="inputGroup input-group input-group-lg"
+        >
+          <input
+            class="border-right-0 rounded-0 form-control"
+            placeholder="Enter a location..."
+            type="text"
+            value=""
+          />
+          <button
+            class="btn btn-success rounded-0"
+            type="button"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;
