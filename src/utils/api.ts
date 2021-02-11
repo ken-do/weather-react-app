@@ -1,8 +1,8 @@
-import axios, { AxiosRequestConfig } from 'axios'
+import axios, { AxiosRequestConfig, AxiosError } from 'axios'
 
 const defaultConfig: AxiosRequestConfig = {
-    baseURL: process.env.REACT_APP_BASE_API_URL,
-    timeout: 2500,
+    baseURL: `${process.env.REACT_APP_API_BASE_URL}/api`,
+    timeout: 5000,
     headers: {
         Accepts: 'application/json',
         'Content-Security-Policy':
@@ -63,27 +63,32 @@ export const httpErrorMessages: HttpErrorMessages = {
 }
 
 export const endpoints = {
-    suggestion: '/location/search',
-    location: '/location',
+    locationSearch: '/location/search',
+    locationDetails: '/location',
 }
 
 const api = axios.create(defaultConfig)
 
+export const standardizeRequestError = (error: AxiosError) => {
+    const standardizedError = new Error()
+    // The request was made and the server responded with a status code
+    if (error.response) {
+        standardizedError.message = httpErrorMessages[error.response.status]
+    } else if (error.message) {
+        // Wrong request setting
+        standardizedError.message = error.message
+        // The request was made but no response was received
+    } else {
+        standardizedError.message = 'Server did not respond.'
+    }
+
+    return standardizedError
+}
+
 api.interceptors.response.use(
     (response) => response,
     (error) => {
-        const standardizedError = new Error()
-        // The request was made and the server responded with a status code
-        if (error.response) {
-            standardizedError.message = httpErrorMessages[error.response.status]
-        } else if (error.message) {
-            // Wrong request setting
-            standardizedError.message = error.message
-            // The request was made but no response was received
-        } else {
-            standardizedError.message = 'Server did not respond.'
-        }
-        return Promise.reject(standardizedError)
+        return Promise.reject(standardizeRequestError(error))
     }
 )
 
