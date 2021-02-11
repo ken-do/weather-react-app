@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Location view should fetch locations when there is a "query" param 1`] = `
+<DocumentFragment>
+  <div>
+    <h1
+      class="mr-3 pr-3 align-top border-right inline-block align-content-center"
+    >
+      No Results
+    </h1>
+    <div
+      class="inline-block align-middle"
+    >
+      <h2
+        class="font-weight-normal lead"
+        id="desc"
+      >
+        Try searching for another location with a different query.
+      </h2>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Location view should render a loading indicator when location data is being fetched 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="Loading"
+    role="status"
+    style="text-align: center;"
+  >
+    <div
+      class="m-1 spinner-grow text-primary"
+    />
+    <div
+      class="m-1 spinner-grow text-secondary"
+    />
+    <div
+      class="m-1 spinner-grow text-success"
+    />
+    <div
+      class="m-1 spinner-grow text-danger"
+    />
+    <div
+      class="m-1 spinner-grow text-warning"
+    />
+    <div
+      class="m-1 spinner-grow text-info"
+    />
+    <div
+      class="m-1 spinner-grow text-dark"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Location view should show a list of locations after location data was 1`] = `
+<DocumentFragment>
+  <div
+    class="row"
+  >
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/2487956"
+      >
+        San Francisco
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/2487889"
+      >
+        San Diego
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/2488042"
+      >
+        San Jose
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/2487796"
+      >
+        San Antonio
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/2488853"
+      >
+        Santa Cruz
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/349859"
+      >
+        Santiago
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/56558361"
+      >
+        Santorini
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/773964"
+      >
+        Santander
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/1132447"
+      >
+        Busan
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/773692"
+      >
+        Santa Cruz de Tenerife
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+    <article
+      class="col-md-3"
+    >
+      <a
+        class="link mr-2 mb-2 d-inline-block"
+        href="/weather/2488867"
+      >
+        Santa Fe
+      </a>
+      <span
+        class="badge badge-pill badge-success"
+      >
+        City
+      </span>
+    </article>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Location view should show a message saying there is no results by default or if the request failed to return any data 1`] = `
+<DocumentFragment>
+  <div>
+    <h1
+      class="mr-3 pr-3 align-top border-right inline-block align-content-center"
+    >
+      No Results
+    </h1>
+    <div
+      class="inline-block align-middle"
+    >
+      <h2
+        class="font-weight-normal lead"
+        id="desc"
+      >
+        Try searching for another location with a different query.
+      </h2>
+    </div>
+  </div>
+</DocumentFragment>
+`;
