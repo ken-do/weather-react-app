@@ -55,5 +55,6 @@ module.exports = {
             },
         ],
         '@typescript-eslint/explicit-module-boundary-types': 'off',
+        'import/newline-after-import': ['error', { count: 1 }],
     },
 }
