@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, screen } from 'utils/testUtils'
+import { render, screen } from 'src/utils/testUtils'
 import Plain from './Plain'
 
 const AComponent = () => <div>Hello, world</div>

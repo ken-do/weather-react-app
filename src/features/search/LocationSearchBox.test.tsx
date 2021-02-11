@@ -1,10 +1,10 @@
 /* eslint-disable import/first */
-jest.mock('utils/api')
+jest.mock('src/utils/api')
 import React from 'react'
-import { PATH, EVENT_KEYS } from 'utils/constants'
-import { fireEvent, render } from 'utils/testUtils'
-import store from 'store'
-import { search as locations } from 'server/db.json'
+import { PATH, EVENT_KEYS } from 'src/utils/constants'
+import { fireEvent, render } from 'src/utils/testUtils'
+import store from 'src/store'
+import { search as locations } from 'src/server/db.json'
 import LocationSearchBox from './LocationSearchBox'
 import * as slice from './suggestionsSlice'
 import { getSuggestionsSuccess, resetSuggestions } from './suggestionsSlice'

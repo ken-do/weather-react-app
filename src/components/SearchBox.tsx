@@ -4,8 +4,8 @@ import FormControl from 'react-bootstrap/FormControl'
 import InputGroup from 'react-bootstrap/InputGroup'
 import Button from 'react-bootstrap/Button'
 import Spinner from 'react-bootstrap/Spinner'
-import { withSuggestions } from 'utils/hocs'
-import { LOCATION_SEARCH_PLACEHOLDER, EVENT_KEYS } from 'utils/constants'
+import { withSuggestions } from 'src/utils/hocs'
+import { LOCATION_SEARCH_PLACEHOLDER, EVENT_KEYS } from 'src/utils/constants'
 import styles from './SearchBox.module.scss'
 
 export interface SearchBoxProps {

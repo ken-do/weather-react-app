@@ -1,6 +1,6 @@
 import React from 'react'
-import { render } from 'utils/testUtils'
-import { APP_NAME } from 'utils/constants'
+import { render } from 'src/utils/testUtils'
+import { APP_NAME } from 'src/utils/constants'
 import Home from './Home'
 
 describe('Home view', () => {

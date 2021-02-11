@@ -1,5 +1,5 @@
 import React, { memo } from 'react'
-import { Location } from 'types/data'
+import { Location } from 'src/types/data'
 import LocationEntry from './LocationEntry'
 
 interface Props {

@@ -1,7 +1,7 @@
 import React, { memo } from 'react'
-import { LocationDetails } from 'types/data'
+import { LocationDetails } from 'src/types/data'
 import Row from 'react-bootstrap/Row'
-import { MAX_FORECASTS } from 'utils/constants'
+import { MAX_FORECASTS } from 'src/utils/constants'
 import ForecastBox from './ForecastBox'
 import ForecastLocation from './ForecastLocation'
 

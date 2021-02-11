@@ -1,8 +1,8 @@
 import React, { memo, useMemo } from 'react'
-import { LocationDetails, NormalizedLocationDetails } from 'types/data'
+import { LocationDetails, NormalizedLocationDetails } from 'src/types/data'
 import Col from 'react-bootstrap/Col'
-import { normalizeObjectKeys } from 'utils/normalizers'
-import { UTCStringToHours } from 'utils/formatters'
+import { normalizeObjectKeys } from 'src/utils/normalizers'
+import { UTCStringToHours } from 'src/utils/formatters'
 
 interface Props {
     locationDetails: LocationDetails

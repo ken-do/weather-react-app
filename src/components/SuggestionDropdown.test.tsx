@@ -1,4 +1,4 @@
-import { fireEvent, render } from 'utils/testUtils'
+import { fireEvent, render } from 'src/utils/testUtils'
 import React from 'react'
 import SuggestionDropdown from './SuggestionDropdown'
 

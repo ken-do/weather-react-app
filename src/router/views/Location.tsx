@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import LocationList from 'features/location/LocationList'
-import { useQuery } from 'utils/router'
-import { useDispatch, useSelector } from 'utils/store'
-import { getLocations } from 'features/location/locationsSlice'
-import { EmptyStateMessage, LoadingIndicator } from 'components'
+import LocationList from 'src/features/location/LocationList'
+import { useQuery } from 'src/utils/router'
+import { useDispatch, useSelector } from 'src/utils/store'
+import { getLocations } from 'src/features/location/locationsSlice'
+import { EmptyStateMessage, LoadingIndicator } from 'src/components'
 
 const Location = () => {
     const queryParams = useQuery()

@@ -7,9 +7,11 @@ import React, {
     useRef,
 } from 'react'
 import _debounce from 'lodash/debounce'
-import { DEBOUNCE_WAIT_MS } from 'utils/constants'
-import { SearchBoxProps } from 'components/SearchBox'
-import SuggestionsDropdown, { Suggestion } from 'components/SuggestionDropdown'
+import { DEBOUNCE_WAIT_MS } from 'src/utils/constants'
+import { SearchBoxProps } from 'src/components/SearchBox'
+import SuggestionsDropdown, {
+    Suggestion,
+} from 'src/components/SuggestionDropdown'
 
 interface WithSuggestionsProps {
     suggestions: Suggestion[]

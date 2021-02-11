@@ -1,9 +1,9 @@
 import { put, call, cancelled } from 'redux-saga/effects'
-import store from 'store'
-import api, { endpoints } from 'utils/api'
-import { search as locations } from 'server/db.json'
-import { Location } from 'types/data'
-import { MAX_SUGGESTIONS } from 'utils/constants'
+import store from 'src/store'
+import api, { endpoints } from 'src/utils/api'
+import { search as locations } from 'src/server/db.json'
+import { Location } from 'src/types/data'
+import { MAX_SUGGESTIONS } from 'src/utils/constants'
 import axios from 'axios'
 import {
     suggestionsInitialState,

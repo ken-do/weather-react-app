@@ -1,6 +1,6 @@
 import express from 'express'
 import fs from 'fs'
-import { LocationDetails } from 'types/data'
+import { LocationDetails } from 'src/types/data'
 
 const router = express.Router()
 

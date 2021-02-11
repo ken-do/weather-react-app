@@ -1,8 +1,8 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react'
-import { SearchBox } from 'components'
-import { render, waitFor } from 'utils/testUtils'
-import { search as locations } from 'server/db.json'
+import { SearchBox } from 'src/components'
+import { render, waitFor } from 'src/utils/testUtils'
+import { search as locations } from 'src/server/db.json'
 import { fireEvent } from '@testing-library/react'
 import withSuggestions from './withSuggestions'
 

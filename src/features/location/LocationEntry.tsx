@@ -1,9 +1,9 @@
 import React, { memo } from 'react'
 import Badge from 'react-bootstrap/Badge'
 import { Link } from 'react-router-dom'
-import { Location, NormalizedLocation } from 'types/data'
-import { normalizeObjectKeys } from 'utils/normalizers'
-import { PATH } from 'utils/constants'
+import { Location, NormalizedLocation } from 'src/types/data'
+import { normalizeObjectKeys } from 'src/utils/normalizers'
+import { PATH } from 'src/utils/constants'
 import styles from './LocationEntry.module.scss'
 
 interface Props {

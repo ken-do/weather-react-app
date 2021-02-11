@@ -1,6 +1,6 @@
-import { render } from 'utils/testUtils'
+import { render } from 'src/utils/testUtils'
 import React from 'react'
-import { search as locations } from 'server/db.json'
+import { search as locations } from 'src/server/db.json'
 import LocationList from './LocationList'
 
 describe('LocationList', () => {

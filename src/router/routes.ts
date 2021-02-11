@@ -1,6 +1,6 @@
 /* istanbul ignore file */
 import { ComponentType } from 'react'
-import { PATH } from 'utils/constants'
+import { PATH } from 'src/utils/constants'
 import { Plain, Search } from './layouts'
 import { Home, NotFound, Location, Weather } from './views'
 

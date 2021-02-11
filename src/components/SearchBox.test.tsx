@@ -1,6 +1,6 @@
-import { render, fireEvent } from 'utils/testUtils'
+import { render, fireEvent } from 'src/utils/testUtils'
 import React from 'react'
-import { EVENT_KEYS } from 'utils/constants'
+import { EVENT_KEYS } from 'src/utils/constants'
 import { SearchBox } from './SearchBox'
 
 describe('SearchBox', () => {

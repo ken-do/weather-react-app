@@ -1,5 +1,5 @@
 import React from 'react'
-import { render } from 'utils/testUtils'
+import { render } from 'src/utils/testUtils'
 import LayoutSearch from './Search'
 
 const AComponent = () => <div>Hello, world</div>

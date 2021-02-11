@@ -1,15 +1,15 @@
 import React from 'react'
-import { render, waitFor } from 'utils/testUtils'
-import store from 'store'
+import { render, waitFor } from 'src/utils/testUtils'
+import store from 'src/store'
 import {
     getDetailsSuccess,
     getDetailsFailure,
     resetDetails,
     getDetailsStart,
-} from 'features/weather/detailsSlice'
-import { location as detailsList } from 'server/db.json'
-import * as slice from 'features/weather/detailsSlice'
-import { MAX_FORECASTS, PATH } from 'utils/constants'
+} from 'src/features/weather/detailsSlice'
+import { location as detailsList } from 'src/server/db.json'
+import * as slice from 'src/features/weather/detailsSlice'
+import { MAX_FORECASTS, PATH } from 'src/utils/constants'
 import Weather from './Weather'
 
 const details = detailsList[0]

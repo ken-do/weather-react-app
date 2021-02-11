@@ -1,15 +1,15 @@
 import React from 'react'
-import { render, waitFor } from 'utils/testUtils'
-import store from 'store'
+import { render, waitFor } from 'src/utils/testUtils'
+import store from 'src/store'
 import {
     getLocationsSuccess,
     getLocationsFailure,
     resetLocations,
     getLocationsStart,
-} from 'features/location/locationsSlice'
-import { search as locations } from 'server/db.json'
-import * as slice from 'features/location/locationsSlice'
-import { PATH } from 'utils/constants'
+} from 'src/features/location/locationsSlice'
+import { search as locations } from 'src/server/db.json'
+import * as slice from 'src/features/location/locationsSlice'
+import { PATH } from 'src/utils/constants'
 import Location from './Location'
 
 describe('Location view', () => {

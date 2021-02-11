@@ -1,7 +1,7 @@
 import { spawn } from 'redux-saga/effects'
-import { watchFetchSuggestions } from 'features/search/suggestionsSlice'
-import { watchFetchDetails } from 'features/weather/detailsSlice'
-import { watchFetchLocations } from 'features/location/locationsSlice'
+import { watchFetchSuggestions } from 'src/features/search/suggestionsSlice'
+import { watchFetchDetails } from 'src/features/weather/detailsSlice'
+import { watchFetchLocations } from 'src/features/location/locationsSlice'
 
 export default function* rootSaga() {
     yield spawn(watchFetchSuggestions)

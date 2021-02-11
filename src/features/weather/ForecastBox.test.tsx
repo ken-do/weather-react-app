@@ -1,8 +1,8 @@
-import { render } from 'utils/testUtils'
+import { render } from 'src/utils/testUtils'
 import React from 'react'
-import { location as forecastList } from 'server/db.json'
-import { ConsolidatedWeather } from 'types/data'
-import { dateToFriendlyDate } from 'utils/formatters'
+import { location as forecastList } from 'src/server/db.json'
+import { ConsolidatedWeather } from 'src/types/data'
+import { dateToFriendlyDate } from 'src/utils/formatters'
 import ForecastBox from './ForecastBox'
 
 const forecast = forecastList[0].consolidated_weather[0] as ConsolidatedWeather

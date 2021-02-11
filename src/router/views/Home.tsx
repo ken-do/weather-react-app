@@ -1,7 +1,7 @@
 import React from 'react'
-import LocationSearchBox from 'features/search/LocationSearchBox'
-import logo from 'static/img/logo.svg'
-import { APP_NAME } from 'utils/constants'
+import LocationSearchBox from 'src/features/search/LocationSearchBox'
+import logo from 'src/static/img/logo.svg'
+import { APP_NAME } from 'src/utils/constants'
 import styles from './Home.module.scss'
 
 const Home = () => (

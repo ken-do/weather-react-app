@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction, createAction } from '@reduxjs/toolkit'
 import { call, put, takeLatest } from 'redux-saga/effects'
-import api, { endpoints } from 'utils/api'
+import api, { endpoints } from 'src/utils/api'
 import _isEmpty from 'lodash/isEmpty'
 import { LocationDetails } from '../../types/data'
 

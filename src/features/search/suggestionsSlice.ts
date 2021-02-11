@@ -8,8 +8,8 @@ import {
     takeEvery,
 } from 'redux-saga/effects'
 import { Task } from 'redux-saga'
-import api, { endpoints } from 'utils/api'
-import { MAX_SUGGESTIONS } from 'utils/constants'
+import api, { endpoints } from 'src/utils/api'
+import { MAX_SUGGESTIONS } from 'src/utils/constants'
 import axios from 'axios'
 import { Location } from '../../types/data'
 import { getLocations } from '../location/locationsSlice'

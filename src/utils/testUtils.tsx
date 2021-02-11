@@ -1,6 +1,6 @@
 import React, { PropsWithChildren, ReactElement } from 'react'
 import { render, RenderOptions } from '@testing-library/react'
-import store from 'store'
+import store from 'src/store'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { Provider } from 'react-redux'
 

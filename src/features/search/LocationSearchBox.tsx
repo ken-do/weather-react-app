@@ -1,11 +1,11 @@
 import React, { memo, useCallback, useMemo } from 'react'
 import { useHistory } from 'react-router-dom'
-import { SearchBoxWithSuggestions } from 'components'
-import { useDispatch, useSelector } from 'utils/store'
-import { PATH } from 'utils/constants'
-import { normalizeObjectKeys } from 'utils/normalizers'
-import { Location } from 'types/data'
-import { Suggestion } from 'components/SuggestionDropdown'
+import { SearchBoxWithSuggestions } from 'src/components'
+import { useDispatch, useSelector } from 'src/utils/store'
+import { PATH } from 'src/utils/constants'
+import { normalizeObjectKeys } from 'src/utils/normalizers'
+import { Location } from 'src/types/data'
+import { Suggestion } from 'src/components/SuggestionDropdown'
 import { getSuggestions, resetSuggestions } from './suggestionsSlice'
 
 interface Props {

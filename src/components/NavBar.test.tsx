@@ -1,6 +1,6 @@
-import { render } from 'utils/testUtils'
+import { render } from 'src/utils/testUtils'
 import React from 'react'
-import { APP_NAME } from 'utils/constants'
+import { APP_NAME } from 'src/utils/constants'
 import NavBar from './NavBar'
 
 describe('NavBar', () => {

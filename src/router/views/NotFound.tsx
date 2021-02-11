@@ -1,5 +1,5 @@
 import React from 'react'
-import { EmptyStateMessage } from 'components'
+import { EmptyStateMessage } from 'src/components'
 
 const NotFound = () => (
     <EmptyStateMessage

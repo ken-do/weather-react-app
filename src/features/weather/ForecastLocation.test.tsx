@@ -1,8 +1,8 @@
-import { render } from 'utils/testUtils'
+import { render } from 'src/utils/testUtils'
 import React from 'react'
-import { location as weatherList } from 'server/db.json'
-import { LocationDetails } from 'types/data'
-import { UTCStringToHours } from 'utils/formatters'
+import { location as weatherList } from 'src/server/db.json'
+import { LocationDetails } from 'src/types/data'
+import { UTCStringToHours } from 'src/utils/formatters'
 import ForecastLocation from './ForecastLocation'
 
 const locationDetails = weatherList[0] as LocationDetails

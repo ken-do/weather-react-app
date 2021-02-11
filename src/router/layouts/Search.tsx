@@ -1,6 +1,6 @@
 import React, { memo, PropsWithChildren } from 'react'
-import NavBar from 'components/NavBar'
-import LocationSearchBox from 'features/search/LocationSearchBox'
+import NavBar from 'src/components/NavBar'
+import LocationSearchBox from 'src/features/search/LocationSearchBox'
 
 const LayoutSearch = ({ children }: PropsWithChildren<unknown>) => {
     return (

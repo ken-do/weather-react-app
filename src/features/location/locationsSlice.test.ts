@@ -1,7 +1,7 @@
 import { put, call } from 'redux-saga/effects'
-import store from 'store'
-import api, { endpoints } from 'utils/api'
-import { search as locations } from 'server/db.json'
+import store from 'src/store'
+import api, { endpoints } from 'src/utils/api'
+import { search as locations } from 'src/server/db.json'
 import {
     locationsInitialState,
     getLocations,

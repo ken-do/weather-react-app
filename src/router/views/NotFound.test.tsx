@@ -1,5 +1,5 @@
 import React from 'react'
-import { render } from 'utils/testUtils'
+import { render } from 'src/utils/testUtils'
 import NotFound from './NotFound'
 
 describe('NotFound view', () => {

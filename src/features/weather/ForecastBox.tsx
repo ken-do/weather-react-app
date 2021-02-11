@@ -1,8 +1,11 @@
 import React, { memo, useMemo } from 'react'
-import { ConsolidatedWeather, NormalizedConsolidatedWeather } from 'types/data'
-import { normalizeObjectKeys } from 'utils/normalizers'
-import { dateToFriendlyDate } from 'utils/formatters'
-import forecastImages from 'utils/weatherForecastImages'
+import {
+    ConsolidatedWeather,
+    NormalizedConsolidatedWeather,
+} from 'src/types/data'
+import { normalizeObjectKeys } from 'src/utils/normalizers'
+import { dateToFriendlyDate } from 'src/utils/formatters'
+import forecastImages from 'src/utils/weatherForecastImages'
 
 interface Props {
     forecast: ConsolidatedWeather

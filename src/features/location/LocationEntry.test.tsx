@@ -1,7 +1,7 @@
-import { render } from 'utils/testUtils'
+import { render } from 'src/utils/testUtils'
 import React from 'react'
-import { PATH } from 'utils/constants'
-import { search as locations } from 'server/db.json'
+import { PATH } from 'src/utils/constants'
+import { search as locations } from 'src/server/db.json'
 import LocationEntry from './LocationEntry'
 
 const location = locations[0]

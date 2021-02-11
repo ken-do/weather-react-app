@@ -1,4 +1,4 @@
-import { render } from 'utils/testUtils'
+import { render } from 'src/utils/testUtils'
 import React from 'react'
 import EmptyStateMessage from './EmptyStateMessage'
 

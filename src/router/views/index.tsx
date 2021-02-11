@@ -1,6 +1,6 @@
 import React from 'react'
 import loadable from '@loadable/component'
-import { LoadingIndicator } from 'components'
+import { LoadingIndicator } from 'src/components'
 
 export const Home = loadable(
     () => import(/* webpackChunkName: "Home" */ './Home'),

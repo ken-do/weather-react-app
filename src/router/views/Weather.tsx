@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import ForecastList from 'features/weather/ForecastList'
-import { useDispatch, useSelector } from 'utils/store'
-import { getDetails } from 'features/weather/detailsSlice'
-import { EmptyStateMessage, LoadingIndicator } from 'components'
+import ForecastList from 'src/features/weather/ForecastList'
+import { useDispatch, useSelector } from 'src/utils/store'
+import { getDetails } from 'src/features/weather/detailsSlice'
+import { EmptyStateMessage, LoadingIndicator } from 'src/components'
 
 interface ParamTypes {
     woeid: string
