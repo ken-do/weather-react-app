@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SuggestionDropdown should match the most recent snapshot 1`] = `
+<DocumentFragment>
+  <ul
+    class="list-group wrapper"
+  >
+    <li
+      class="list-group-item"
+      role="presentation"
+    >
+      mock title
+    </li>
+  </ul>
+</DocumentFragment>
+`;

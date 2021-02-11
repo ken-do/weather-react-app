@@ -1,0 +1,16 @@
+@import '../design/index.scss';
+
+.wrapper {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+
+    li {
+        &:hover {
+            color: $white;
+            background-color: $success;
+        }
+    }
+}
