@@ -43,7 +43,7 @@ const ForecastBox = ({ forecast }: Props) => {
             <dl>
                 <dd className="weatherstate" data-original-title="" title="">
                     <img
-                        src={forecastImages[weatherStateAbbr]}
+                        src={forecastImages[weatherStateAbbr] as string}
                         alt={weatherStateName}
                         width="32"
                     />

@@ -14,7 +14,6 @@ const Weather = () => {
     const dispatch = useDispatch()
     const locationDetails = useSelector((state) => state.details.location)
     const isLoading = useSelector((state) => state.details.isLoading)
-
     useEffect(() => {
         if (woeid) {
             dispatch(getDetails(woeid))

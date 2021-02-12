@@ -1,11 +1,10 @@
 import express from 'express'
 import axios, { Method } from 'axios'
-import createError from 'http-errors'
 import { standardizeRequestError } from '../utils/api'
 
 const router = express.Router()
 
-router.use(async (req, res, next) => {
+router.use(async (req, res) => {
     const url = `${process.env.API_BASE_URL}${req.originalUrl}`
     res.setHeader('Access-Control-Allow-Origin', '*')
     try {
@@ -16,10 +15,11 @@ router.use(async (req, res, next) => {
                 Accepts: 'application/json',
             },
         })
-        return res.send(response.data)
+        res.send(response.data)
     } catch (error) {
+        console.log('Error while making API requests: ', error)
         const standardizedError = standardizeRequestError(error)
-        return next(createError(500, standardizedError))
+        res.status(500).send(standardizedError)
     }
 })
 

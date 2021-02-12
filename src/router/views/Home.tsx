@@ -7,7 +7,7 @@ import styles from './Home.module.scss'
 const Home = () => (
     <div className={styles.wrapper}>
         <h1 className="mb-4 text-center">
-            <img src={logo} alt="logo" width="64" />
+            <img src={logo as string} alt="logo" width="64" />
             {APP_NAME}
         </h1>
         <LocationSearchBox size="lg" autoFocus />

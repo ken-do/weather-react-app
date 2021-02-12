@@ -1,0 +1,1946 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "4a6eb2d32939f8181431",
+  "publicPath": "/",
+  "outputPath": "/Users/doankhuong/Documents/Projects/weather-react-app/build",
+  "assetsByChunkName": {
+    "Home": [
+      "static/css/Home.1d8cef6b.chunk.css",
+      "static/js/Home.c1ba6ad5.chunk.js",
+      "static/js/Home.c1ba6ad5.chunk.js.map"
+    ],
+    "Location": [
+      "static/css/Location.af5ee047.chunk.css",
+      "static/js/Location.3bfe057e.chunk.js",
+      "static/js/Location.3bfe057e.chunk.js.map"
+    ],
+    "NotFound": [
+      "static/js/NotFound.45300e3b.chunk.js",
+      "static/js/NotFound.45300e3b.chunk.js.map"
+    ],
+    "Weather": [
+      "static/js/Weather.ed21cec1.chunk.js",
+      "static/js/Weather.ed21cec1.chunk.js.map"
+    ],
+    "main": [
+      "static/css/main.0de60adf.chunk.css",
+      "static/js/main.62371785.chunk.js",
+      "static/js/main.62371785.chunk.js.map"
+    ],
+    "runtime-main": [
+      "static/js/runtime-main.4b5d6126.js",
+      "static/js/runtime-main.4b5d6126.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "static/css/Home.1d8cef6b.chunk.css",
+      "size": 193866,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "Home"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/css/Home.1d8cef6b.chunk.css.map",
+      "size": 295574,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/css/Location.af5ee047.chunk.css",
+      "size": 229532,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "Location"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/css/Location.af5ee047.chunk.css.map",
+      "size": 295441,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/css/main.0de60adf.chunk.css",
+      "size": 796500,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/css/main.0de60adf.chunk.css.map",
+      "size": 472726,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/6.2ebcbff1.chunk.js",
+      "size": 285902,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true,
+        "minimized": true,
+        "related": {
+          "license": "static/js/6.2ebcbff1.chunk.js.LICENSE.txt"
+        }
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/6.2ebcbff1.chunk.js.LICENSE.txt",
+      "size": 1415,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/6.2ebcbff1.chunk.js.map",
+      "size": 1159960,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/7.44ccdb95.chunk.js",
+      "size": 4228,
+      "chunks": [
+        7
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true,
+        "minimized": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/7.44ccdb95.chunk.js.map",
+      "size": 9269,
+      "chunks": [
+        7
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/Home.c1ba6ad5.chunk.js",
+      "size": 60714,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "Home"
+      ],
+      "info": {
+        "immutable": true,
+        "minimized": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/Home.c1ba6ad5.chunk.js.map",
+      "size": 87048,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "Home"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/Location.3bfe057e.chunk.js",
+      "size": 75837,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "Location"
+      ],
+      "info": {
+        "immutable": true,
+        "minimized": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/Location.3bfe057e.chunk.js.map",
+      "size": 106160,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "Location"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/NotFound.45300e3b.chunk.js",
+      "size": 316,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "NotFound"
+      ],
+      "info": {
+        "immutable": true,
+        "minimized": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/NotFound.45300e3b.chunk.js.map",
+      "size": 506,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "NotFound"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/Weather.ed21cec1.chunk.js",
+      "size": 3430,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "Weather"
+      ],
+      "info": {
+        "immutable": true,
+        "minimized": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/Weather.ed21cec1.chunk.js.map",
+      "size": 12724,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "Weather"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/main.62371785.chunk.js",
+      "size": 228690,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "immutable": true,
+        "minimized": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/main.62371785.chunk.js.map",
+      "size": 335757,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/runtime-main.4b5d6126.js",
+      "size": 3435,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [
+        "runtime-main"
+      ],
+      "info": {
+        "immutable": true,
+        "minimized": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/runtime-main.4b5d6126.js.map",
+      "size": 16366,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [
+        "runtime-main"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/media/c.a0494ee7.svg",
+      "size": 2339,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/media/h.96604759.svg",
+      "size": 2080,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/media/hc.2c9f7426.svg",
+      "size": 1391,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/media/hr.26d8fd35.svg",
+      "size": 2278,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/media/lc.1bfad6cb.svg",
+      "size": 2369,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/media/logo.1bfad6cb.svg",
+      "size": 2369,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/media/lr.13a94d98.svg",
+      "size": 1557,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/media/s.f7a3e255.svg",
+      "size": 2595,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/media/sl.1e4007d1.svg",
+      "size": 1654,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/media/sn.5df2385b.svg",
+      "size": 3587,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/media/t.e6311c11.svg",
+      "size": 1171,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        5,
+        6,
+        4
+      ],
+      "assets": [
+        "static/js/runtime-main.4b5d6126.js",
+        "static/js/runtime-main.4b5d6126.js.map",
+        "static/js/6.2ebcbff1.chunk.js",
+        "static/js/6.2ebcbff1.chunk.js.map",
+        "static/css/main.0de60adf.chunk.css",
+        "static/js/main.62371785.chunk.js",
+        "static/js/main.62371785.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        5,
+        6,
+        4
+      ],
+      "assets": [
+        "static/js/runtime-main.4b5d6126.js",
+        "static/js/runtime-main.4b5d6126.js.map",
+        "static/js/6.2ebcbff1.chunk.js",
+        "static/js/6.2ebcbff1.chunk.js.map",
+        "static/css/main.0de60adf.chunk.css",
+        "static/js/main.62371785.chunk.js",
+        "static/js/main.62371785.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Home": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "static/css/Home.1d8cef6b.chunk.css",
+        "static/js/Home.c1ba6ad5.chunk.js",
+        "static/js/Home.c1ba6ad5.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "NotFound": {
+      "chunks": [
+        2
+      ],
+      "assets": [
+        "static/js/NotFound.45300e3b.chunk.js",
+        "static/js/NotFound.45300e3b.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Location": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "static/css/Location.af5ee047.chunk.css",
+        "static/js/Location.3bfe057e.chunk.js",
+        "static/js/Location.3bfe057e.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Weather": {
+      "chunks": [
+        3
+      ],
+      "assets": [
+        "static/js/Weather.ed21cec1.chunk.js",
+        "static/js/Weather.ed21cec1.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 257296,
+      "names": [
+        "Home"
+      ],
+      "files": [
+        "static/css/Home.1d8cef6b.chunk.css",
+        "static/js/Home.c1ba6ad5.chunk.js",
+        "static/js/Home.c1ba6ad5.chunk.js.map"
+      ],
+      "hash": "b4fa77576bc22e281301",
+      "siblings": [],
+      "parents": [
+        4,
+        5,
+        6
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 309892,
+      "names": [
+        "Location"
+      ],
+      "files": [
+        "static/css/Location.af5ee047.chunk.css",
+        "static/js/Location.3bfe057e.chunk.js",
+        "static/js/Location.3bfe057e.chunk.js.map"
+      ],
+      "hash": "9aecb31abe043086ebb8",
+      "siblings": [],
+      "parents": [
+        4,
+        5,
+        6
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": 2,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 283,
+      "names": [
+        "NotFound"
+      ],
+      "files": [
+        "static/js/NotFound.45300e3b.chunk.js",
+        "static/js/NotFound.45300e3b.chunk.js.map"
+      ],
+      "hash": "a248f6a7c327f000d47b",
+      "siblings": [],
+      "parents": [
+        4,
+        5,
+        6
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": 3,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 7544,
+      "names": [
+        "Weather"
+      ],
+      "files": [
+        "static/js/Weather.ed21cec1.chunk.js",
+        "static/js/Weather.ed21cec1.chunk.js.map"
+      ],
+      "hash": "cec89108901f26a63299",
+      "siblings": [],
+      "parents": [
+        4,
+        5,
+        6
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": 4,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "size": 1064747,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "static/css/main.0de60adf.chunk.css",
+        "static/js/main.62371785.chunk.js",
+        "static/js/main.62371785.chunk.js.map"
+      ],
+      "hash": "eda0e098c2dcbe9511a6",
+      "siblings": [
+        5,
+        6
+      ],
+      "parents": [],
+      "children": [
+        0,
+        1,
+        2,
+        3,
+        7
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": 5,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 0,
+      "names": [
+        "runtime-main"
+      ],
+      "files": [
+        "static/js/runtime-main.4b5d6126.js",
+        "static/js/runtime-main.4b5d6126.js.map"
+      ],
+      "hash": "5159358c5302436365be",
+      "siblings": [
+        4,
+        6
+      ],
+      "parents": [],
+      "children": [
+        0,
+        1,
+        2,
+        3,
+        7
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": 6,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "reason": "split chunk (cache group: vendors)",
+      "size": 802394,
+      "names": [],
+      "files": [
+        "static/js/6.2ebcbff1.chunk.js",
+        "static/js/6.2ebcbff1.chunk.js.map"
+      ],
+      "hash": "c963941795511e277ba5",
+      "siblings": [
+        4,
+        5
+      ],
+      "parents": [],
+      "children": [
+        0,
+        1,
+        2,
+        3,
+        7
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": 7,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 5605,
+      "names": [],
+      "files": [
+        "static/js/7.44ccdb95.chunk.js",
+        "static/js/7.44ccdb95.chunk.js.map"
+      ],
+      "hash": "6c6f0efd3983f47ab129",
+      "siblings": [],
+      "parents": [
+        4,
+        5,
+        6
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/doankhuong/Documents/Projects/weather-react-app/build",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
+      },
+      "assets": [
+        {
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 5780,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 2102,
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "hash": "b47c98ed3b985e154d88",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/html-webpack-plugin/lib/loader.js!/Users/doankhuong/Documents/Projects/weather-react-app/public/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "index": 0,
+              "index2": 0,
+              "size": 2102,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/html-webpack-plugin/lib/loader.js!/Users/doankhuong/Documents/Projects/weather-react-app/public/index.html",
+                  "loc": "HtmlWebpackPlugin_0"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/html-webpack-plugin/lib/loader.js!/Users/doankhuong/Documents/Projects/weather-react-app/public/index.html",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "HtmlWebpackCompiler"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/doankhuong/Documents/Projects/weather-react-app/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 447605,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "17e6eda1a3d9ce243ae0",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+              "name": "./node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2517,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-6-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/index.scss",
+              "issuerId": 1,
+              "issuerName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/index.scss",
+              "issuerPath": [
+                {
+                  "id": 1,
+                  "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-6-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/index.scss",
+                  "name": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/index.scss"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-6-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/index.scss",
+                  "module": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/index.scss",
+                  "moduleName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/index.scss",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-116"
+                },
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-6-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/index.scss",
+                  "module": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/index.scss",
+                  "moduleName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/index.scss",
+                  "type": "harmony import specifier",
+                  "userRequest": "../node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "id": 1,
+              "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-6-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/index.scss",
+              "name": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/index.scss",
+              "index": 0,
+              "index2": 1,
+              "size": 445088,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-6-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/index.scss",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-6-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/index.scss",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!node_modules/postcss-loader/src/index.js??postcss!node_modules/resolve-url-loader/index.js??ref--5-oneOf-6-3!node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!src/index.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/doankhuong/Documents/Projects/weather-react-app/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 571403,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "42d176da8b01ae550b2e",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+              "name": "./node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2517,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/NavBar.module.scss",
+              "issuerId": 1,
+              "issuerName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/NavBar.module.scss",
+              "issuerPath": [
+                {
+                  "id": 1,
+                  "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/NavBar.module.scss",
+                  "name": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/NavBar.module.scss"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/NavBar.module.scss",
+                  "module": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/NavBar.module.scss",
+                  "moduleName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/NavBar.module.scss",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../../node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-119"
+                },
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/NavBar.module.scss",
+                  "module": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/NavBar.module.scss",
+                  "moduleName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/NavBar.module.scss",
+                  "type": "harmony import specifier",
+                  "userRequest": "../../node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "id": 1,
+              "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/NavBar.module.scss",
+              "name": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/NavBar.module.scss",
+              "index": 0,
+              "index2": 1,
+              "size": 568886,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/NavBar.module.scss",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/NavBar.module.scss",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!node_modules/postcss-loader/src/index.js??postcss!node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!src/components/NavBar.module.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/doankhuong/Documents/Projects/weather-react-app/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 587981,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "b3337fb34406306a5f99",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+              "name": "./node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2517,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/SearchBox.module.scss",
+              "issuerId": 1,
+              "issuerName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/SearchBox.module.scss",
+              "issuerPath": [
+                {
+                  "id": 1,
+                  "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/SearchBox.module.scss",
+                  "name": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/SearchBox.module.scss"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/SearchBox.module.scss",
+                  "module": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/SearchBox.module.scss",
+                  "moduleName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/SearchBox.module.scss",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../../node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-119"
+                },
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/SearchBox.module.scss",
+                  "module": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/SearchBox.module.scss",
+                  "moduleName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/SearchBox.module.scss",
+                  "type": "harmony import specifier",
+                  "userRequest": "../../node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "id": 1,
+              "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/SearchBox.module.scss",
+              "name": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/SearchBox.module.scss",
+              "index": 0,
+              "index2": 1,
+              "size": 585464,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/SearchBox.module.scss",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/SearchBox.module.scss",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!node_modules/postcss-loader/src/index.js??postcss!node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!src/components/SearchBox.module.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/doankhuong/Documents/Projects/weather-react-app/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 638016,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "8c46d0c2be4051a750ca",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+              "name": "./node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2517,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/SuggestionDropDown.module.scss",
+              "issuerId": 1,
+              "issuerName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/SuggestionDropDown.module.scss",
+              "issuerPath": [
+                {
+                  "id": 1,
+                  "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/SuggestionDropDown.module.scss",
+                  "name": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/SuggestionDropDown.module.scss"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/SuggestionDropDown.module.scss",
+                  "module": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/SuggestionDropDown.module.scss",
+                  "moduleName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/SuggestionDropDown.module.scss",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../../node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-119"
+                },
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/SuggestionDropDown.module.scss",
+                  "module": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/SuggestionDropDown.module.scss",
+                  "moduleName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/SuggestionDropDown.module.scss",
+                  "type": "harmony import specifier",
+                  "userRequest": "../../node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "id": 1,
+              "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/SuggestionDropDown.module.scss",
+              "name": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/components/SuggestionDropDown.module.scss",
+              "index": 0,
+              "index2": 1,
+              "size": 635499,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/SuggestionDropDown.module.scss",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/components/SuggestionDropDown.module.scss",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!node_modules/postcss-loader/src/index.js??postcss!node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!src/components/SuggestionDropDown.module.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/doankhuong/Documents/Projects/weather-react-app/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 609990,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "626ba8f31379478b894f",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+              "name": "./node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2517,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/features/location/LocationEntry.module.scss",
+              "issuerId": 1,
+              "issuerName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/features/location/LocationEntry.module.scss",
+              "issuerPath": [
+                {
+                  "id": 1,
+                  "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/features/location/LocationEntry.module.scss",
+                  "name": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/features/location/LocationEntry.module.scss"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/features/location/LocationEntry.module.scss",
+                  "module": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/features/location/LocationEntry.module.scss",
+                  "moduleName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/features/location/LocationEntry.module.scss",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../../../node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-122"
+                },
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/features/location/LocationEntry.module.scss",
+                  "module": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/features/location/LocationEntry.module.scss",
+                  "moduleName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/features/location/LocationEntry.module.scss",
+                  "type": "harmony import specifier",
+                  "userRequest": "../../../node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "id": 1,
+              "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/features/location/LocationEntry.module.scss",
+              "name": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/features/location/LocationEntry.module.scss",
+              "index": 0,
+              "index2": 1,
+              "size": 607473,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/features/location/LocationEntry.module.scss",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/features/location/LocationEntry.module.scss",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!node_modules/postcss-loader/src/index.js??postcss!node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!src/features/location/LocationEntry.module.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/doankhuong/Documents/Projects/weather-react-app/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 560770,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "41bbb56c0db73ccc4faf",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+              "name": "./node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2517,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/router/views/Home.module.scss",
+              "issuerId": 1,
+              "issuerName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/router/views/Home.module.scss",
+              "issuerPath": [
+                {
+                  "id": 1,
+                  "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/router/views/Home.module.scss",
+                  "name": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/router/views/Home.module.scss"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/router/views/Home.module.scss",
+                  "module": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/router/views/Home.module.scss",
+                  "moduleName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/router/views/Home.module.scss",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../../../node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-122"
+                },
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/router/views/Home.module.scss",
+                  "module": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/router/views/Home.module.scss",
+                  "moduleName": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/router/views/Home.module.scss",
+                  "type": "harmony import specifier",
+                  "userRequest": "../../../node_modules/react-scripts/node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "id": 1,
+              "identifier": "/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/router/views/Home.module.scss",
+              "name": "./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-7-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!./src/router/views/Home.module.scss",
+              "index": 0,
+              "index2": 1,
+              "size": 558253,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/router/views/Home.module.scss",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/postcss-loader/src/index.js??postcss!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!/Users/doankhuong/Documents/Projects/weather-react-app/node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!/Users/doankhuong/Documents/Projects/weather-react-app/src/router/views/Home.module.scss",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-7-1!node_modules/postcss-loader/src/index.js??postcss!node_modules/resolve-url-loader/index.js??ref--5-oneOf-7-3!node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-7-4!src/router/views/Home.module.scss"
+    }
+  ],
+  "generator": "loadable-components"
+}

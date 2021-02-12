@@ -9,7 +9,7 @@ import hc from 'src/static/img/weather/hc.svg'
 import lc from 'src/static/img/weather/lc.svg'
 import c from 'src/static/img/weather/c.svg'
 
-const weatherForecastImages: Record<string, any> = {
+const weatherForecastImages: Record<string, unknown> = {
     sn,
     sl,
     h,

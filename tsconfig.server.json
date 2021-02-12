@@ -1,25 +1,25 @@
 {
     "compilerOptions": {
-        "baseUrl": "src",
-        "outDir": "build-server",
-        "sourceMap": false,
+        "baseUrl": ".",
+        "paths": {
+            "src/*": ["./src"]
+        },
+        "outDir": "./build-server",
         "target": "es5",
-        "module": "CommonJS",
-        "moduleResolution": "node",
-        "allowJs": false,
-        "strict": true,
-        "noUnusedLocals": true,
-        "resolveJsonModule": true,
-        "esModuleInterop": true,
+        "typeRoots": ["./node_modules/@types"],
         "lib": ["dom", "dom.iterable", "esnext"],
-        "types": ["jest", "node"],
-        "jsx": "react-jsx",
+        "allowJs": true,
         "skipLibCheck": true,
+        "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
+        "strict": true,
         "forceConsistentCasingInFileNames": true,
-        "noFallthroughCasesInSwitch": true,
-        "isolatedModules": true
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "strictNullChecks": false,
+        "jsx": "react"
     },
-    "include": ["src/server"],
-    "exclude": ["**/*.log"]
+    "exclude": ["node_modules"]
 }

@@ -57,4 +57,11 @@ module.exports = {
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         'import/newline-after-import': ['error', { count: 1 }],
     },
+    settings: {
+        'import/resolver': {
+            node: {
+                extensions: ['.js', '.jsx', '.ts', '.tsx'],
+            },
+        },
+    },
 }
