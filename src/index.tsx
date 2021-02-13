@@ -9,10 +9,11 @@ import { loadableReady } from '@loadable/component'
 import reportWebVitals from './reportWebVitals'
 import store from './store'
 
-const render = () => {
-    const App = require('./App').default
+type RenderMethod = 'render' | 'hydrate'
 
-    ReactDOM.hydrate(
+const renderApp = (renderMethod: RenderMethod = 'render') => {
+    const App = require('./App').default
+    ReactDOM[renderMethod](
         <React.StrictMode>
             <Provider store={store}>
                 <Router>
@@ -25,11 +26,13 @@ const render = () => {
 }
 
 loadableReady(() => {
-    render()
+    const renderMethod =
+        process.env.NODE_ENV === 'development' ? 'render' : 'hydrate'
+    renderApp(renderMethod)
 })
 
 if (process.env.NODE_ENV === 'development' && module.hot) {
-    module.hot.accept('./App', render)
+    module.hot.accept('./App', renderApp)
 }
 
 // If you want to start measuring performance in your app, pass a function
