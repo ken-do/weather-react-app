@@ -26,9 +26,17 @@ Under the hood, this script runs `yarn build` to build the app for the client si
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn coverage`
+### `yarn test:coverage`
 
 It does the same thing as `yarn test` but also shows the code coverage status and thus, provides more useful feedback for writing high quality unit tests.
+
+### `yarn e2e`
+
+Run all the Cypress tests in the headless mode using the Electron browser.
+
+### `yarn e2e:open`
+
+Open the Cypress Test Runner, useful for writing and running individual tests in Chrome during development.
 
 ### `yarn build`
 
