@@ -1,4 +1,4 @@
-import { put, call } from 'redux-saga/effects'
+import { put, call, spawn } from 'redux-saga/effects'
 import store from 'src/store'
 import api, { endpoints } from 'src/utils/api'
 import { search as locations } from 'src/server/db.json'
@@ -11,6 +11,10 @@ import {
     fetchLocations,
     resetLocations,
 } from './locationsSlice'
+import {
+    cancelSuggestions,
+    watchFetchSuggestions,
+} from '../search/suggestionsSlice'
 
 const mockLocations = locations
 const mockError = new Error('Not Found')
@@ -51,6 +55,7 @@ describe('fetchLocations saga', () => {
         const fetchIterator = fetchLocations(getLocations(query))
         store.dispatch(resetLocations())
         store.dispatch(getLocations(query))
+        expect(fetchIterator.next().value).toEqual(put(cancelSuggestions()))
         expect(fetchIterator.next().value).toEqual(put(getLocationsStart()))
         expect(fetchIterator.next().value).toEqual(
             call(api.get, endpoints.locationSearch, {
@@ -60,12 +65,14 @@ describe('fetchLocations saga', () => {
         expect(fetchIterator.next({ data: mockLocations }).value).toEqual(
             put(getLocationsSuccess(mockLocations))
         )
+        expect(fetchIterator.next().value).toEqual(spawn(watchFetchSuggestions))
     })
 
     test('handle a failing request', () => {
         const fetchIterator = fetchLocations(getLocations(query))
         store.dispatch(resetLocations())
         store.dispatch(getLocations(query))
+        expect(fetchIterator.next().value).toEqual(put(cancelSuggestions()))
         expect(fetchIterator.next().value).toEqual(put(getLocationsStart()))
         expect(fetchIterator.next().value).toEqual(
             call(api.get, endpoints.locationSearch, {
@@ -75,5 +82,6 @@ describe('fetchLocations saga', () => {
         expect(fetchIterator.throw(mockError).value).toEqual(
             put(getLocationsFailure(mockError))
         )
+        expect(fetchIterator.next().value).toEqual(spawn(watchFetchSuggestions))
     })
 })

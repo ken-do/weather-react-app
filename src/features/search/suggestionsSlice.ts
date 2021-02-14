@@ -12,7 +12,6 @@ import api, { endpoints } from 'src/utils/api'
 import { MAX_SUGGESTIONS } from 'src/utils/constants'
 import axios from 'axios'
 import { Location } from '../../types/data'
-import { getLocations } from '../location/locationsSlice'
 
 interface SuggestionsState {
     isLoading: boolean
@@ -92,13 +91,13 @@ export function* fetchSuggestions({
     }
 }
 
-function* cancelWorkerSaga(task: Task) {
+function* cancelFetchSuggestions(task: Task) {
     yield cancel(task)
 }
 
 export function* watchFetchSuggestions() {
-    const workerTask = yield takeEvery(getSuggestions.type, fetchSuggestions)
-    yield takeLatest(getLocations.type, cancelWorkerSaga, workerTask)
+    const task = yield takeEvery(getSuggestions.type, fetchSuggestions)
+    yield takeLatest(cancelSuggestions, cancelFetchSuggestions, task)
 }
 
 export default suggestions.reducer

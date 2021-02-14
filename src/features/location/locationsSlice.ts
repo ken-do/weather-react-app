@@ -1,6 +1,10 @@
 import { createSlice, PayloadAction, createAction } from '@reduxjs/toolkit'
-import { call, put, takeLatest } from 'redux-saga/effects'
+import { call, put, spawn, takeLatest } from 'redux-saga/effects'
 import api, { endpoints } from 'src/utils/api'
+import {
+    cancelSuggestions,
+    watchFetchSuggestions,
+} from 'src/features/search/suggestionsSlice'
 import { Location } from '../../types/data'
 
 interface LocationsState {
@@ -64,6 +68,7 @@ export const {
 
 export function* fetchLocations({ payload }: ReturnType<typeof getLocations>) {
     try {
+        yield put(cancelSuggestions())
         yield put(getLocationsStart())
         const response: RequestResponse = yield call(
             api.get,
@@ -75,6 +80,8 @@ export function* fetchLocations({ payload }: ReturnType<typeof getLocations>) {
         yield put(getLocationsSuccess(response.data))
     } catch (err) {
         yield put(getLocationsFailure(err))
+    } finally {
+        yield spawn(watchFetchSuggestions)
     }
 }
 
