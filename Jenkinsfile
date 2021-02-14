@@ -34,6 +34,12 @@ pipeline {
       }
     }
 
+    stage('E2E Tests') {
+      steps {
+        sh 'yarn e2e'
+      }
+    }
+
     stage('Clean Up') {
       steps {
         sh 'yarn stop:ssr:bg'
