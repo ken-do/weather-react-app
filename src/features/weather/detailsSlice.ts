@@ -64,15 +64,17 @@ export const {
 } = details.actions
 
 export function* fetchDetails({ payload }: ReturnType<typeof getDetails>) {
-    try {
-        yield put(getDetailsStart())
-        const response: RequestResponse = yield call(
-            api.get,
-            `${endpoints.locationDetails}/${payload}`
-        )
-        yield put(getDetailsSuccess(response.data))
-    } catch (err) {
-        yield put(getDetailsFailure(err))
+    if (payload) {
+        try {
+            yield put(getDetailsStart())
+            const response: RequestResponse = yield call(
+                api.get,
+                `${endpoints.locationDetails}/${payload}`
+            )
+            yield put(getDetailsSuccess(response.data))
+        } catch (err) {
+            yield put(getDetailsFailure(err))
+        }
     }
 }
 

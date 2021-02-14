@@ -67,21 +67,23 @@ export const {
 } = locations.actions
 
 export function* fetchLocations({ payload }: ReturnType<typeof getLocations>) {
-    try {
-        yield put(cancelSuggestions())
-        yield put(getLocationsStart())
-        const response: RequestResponse = yield call(
-            api.get,
-            endpoints.locationSearch,
-            {
-                params: { query: payload },
-            }
-        )
-        yield put(getLocationsSuccess(response.data))
-    } catch (err) {
-        yield put(getLocationsFailure(err))
-    } finally {
-        yield spawn(watchFetchSuggestions)
+    if (payload) {
+        try {
+            yield put(cancelSuggestions())
+            yield put(getLocationsStart())
+            const response: RequestResponse = yield call(
+                api.get,
+                endpoints.locationSearch,
+                {
+                    params: { query: payload },
+                }
+            )
+            yield put(getLocationsSuccess(response.data))
+        } catch (err) {
+            yield put(getLocationsFailure(err))
+        } finally {
+            yield spawn(watchFetchSuggestions)
+        }
     }
 }
 

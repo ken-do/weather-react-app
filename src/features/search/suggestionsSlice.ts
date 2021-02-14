@@ -73,20 +73,22 @@ export const {
 export function* fetchSuggestions({
     payload,
 }: ReturnType<typeof getSuggestions>) {
-    const source = axios.CancelToken.source()
-    try {
-        yield put(getSuggestionsStart())
-        const response = yield call(api.get, endpoints.locationSearch, {
-            params: { query: payload },
-            cancelToken: source.token,
-        })
-        yield put(getSuggestionsSuccess(response.data))
-    } catch (err) {
-        yield put(getSuggestionsFailure(err))
-    } finally {
-        if (yield cancelled()) {
-            source.cancel()
-            yield put(resetSuggestions())
+    if (payload) {
+        const source = axios.CancelToken.source()
+        try {
+            yield put(getSuggestionsStart())
+            const response = yield call(api.get, endpoints.locationSearch, {
+                params: { query: payload },
+                cancelToken: source.token,
+            })
+            yield put(getSuggestionsSuccess(response.data))
+        } catch (err) {
+            yield put(getSuggestionsFailure(err))
+        } finally {
+            if (yield cancelled()) {
+                source.cancel()
+                yield put(resetSuggestions())
+            }
         }
     }
 }

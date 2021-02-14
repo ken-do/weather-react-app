@@ -47,6 +47,11 @@ describe('actions', () => {
 describe('fetchDetails saga', () => {
     const id = '123456'
 
+    test('return if payload is empty', () => {
+        const fetchIterator = fetchDetails(getDetails(''))
+        expect(fetchIterator.next().done).toBe(true)
+    })
+
     test('handle a successful request', () => {
         const fetchIterator = fetchDetails(getDetails(id))
         store.dispatch(resetDetails())

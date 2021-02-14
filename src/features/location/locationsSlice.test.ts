@@ -51,6 +51,11 @@ describe('actions', () => {
 describe('fetchLocations saga', () => {
     const query = 'mockQuery'
 
+    test('return if payload is empty', () => {
+        const fetchIterator = fetchLocations(getLocations(''))
+        expect(fetchIterator.next().done).toBe(true)
+    })
+
     test('handle a successful request', () => {
         const fetchIterator = fetchLocations(getLocations(query))
         store.dispatch(resetLocations())
