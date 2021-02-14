@@ -24,3 +24,4 @@ yarn-error.log*
 **/access.log
 **/error.log
 /build-server
+/cypress/videos
