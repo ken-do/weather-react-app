@@ -51,7 +51,7 @@
     "stop:ssr:bg": "pm2 stop weather-react-app",
     "start": "run-s build build:ssr start:ssr",
     "test": "craco test",
-    "coverage": "yarn test --collectCoverage",
+    "test:coverage": "yarn test --collectCoverage --watchAll",
     "e2e": "yarn cypress run",
     "e2e:open": "yarn cypress open",
     "eject": "react-scripts eject",
