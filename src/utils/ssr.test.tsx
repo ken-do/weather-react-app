@@ -10,6 +10,55 @@ import * as ssrUtils from './ssr'
 
 jest.mock('src/utils/api')
 
+describe('markActionsAsDone', () => {
+    test('should mark actions as completed when all actions are done', () => {
+        jest.useFakeTimers()
+        const actions = [
+            {
+                creator: () => ({
+                    payload: '',
+                    type: 'MOCK_ACTION',
+                }),
+                // eslint-disable-next-line consistent-return
+                getPayload: () => '',
+                done: () => true,
+            },
+            {
+                creator: () => ({
+                    payload: '',
+                    type: 'ANOTHER_MOCK_ACTION',
+                }),
+                // eslint-disable-next-line consistent-return
+                getPayload: () => '',
+                done: () => true,
+            },
+        ]
+        const resolve = jest.fn((value) => value)
+        ssrUtils.markActionsAsDone(actions, resolve)
+        jest.runAllTimers()
+        expect(resolve).toHaveBeenCalledWith(true)
+    })
+
+    test('should mark actions as completed after a specified amount of time', () => {
+        jest.useFakeTimers()
+        const actions = [
+            {
+                creator: () => ({
+                    payload: '',
+                    type: 'MOCK_ACTION',
+                }),
+                // eslint-disable-next-line consistent-return
+                getPayload: () => '',
+                done: () => false,
+            },
+        ]
+        const resolve = jest.fn((value) => value)
+        ssrUtils.markActionsAsDone(actions, resolve)
+        jest.runAllTimers()
+        expect(resolve).toHaveBeenCalledWith(true)
+    })
+})
+
 describe('triggerActions', () => {
     test('should trigger getLocations when receving request to the /location page', () => {
         const spy = jest.spyOn(locationsSlice, 'getLocations')
