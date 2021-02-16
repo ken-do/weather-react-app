@@ -39,13 +39,21 @@ pipeline {
         sh 'yarn e2e'
       }
     }
-
-    stage('Clean Up') {
-      steps {
-        sh 'yarn stop:ssr:bg'
+  }
+  post {
+    always {
+      script {
+        try {
+          sh 'yarn stop:ssr:bg'
+        } catch (err) {
+          echo 'Application has already been terminated.'
+        }
+      }
+      script {
+        sh 'rm -rf build'
+        sh 'rm -rf build-server'
         sh 'rm -rf node_modules'
       }
     }
-
   }
 }
