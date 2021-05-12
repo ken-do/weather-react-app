@@ -6,13 +6,10 @@ module.exports = {
         'airbnb/hooks',
         'plugin:@typescript-eslint/recommended',
         'plugin:jest/recommended',
-        'prettier',
-        'prettier/react',
-        'prettier/@typescript-eslint',
-        'plugin:prettier/recommended',
         'plugin:promise/recommended',
+        'plugin:prettier/recommended',
     ],
-    plugins: ['react', '@typescript-eslint', 'jest', 'prettier'],
+    plugins: ['react', '@typescript-eslint', 'jest'],
     env: {
         browser: true,
         es6: true,
@@ -33,12 +30,6 @@ module.exports = {
     },
     rules: {
         'linebreak-style': 'off',
-        'prettier/prettier': [
-            'error',
-            {
-                endOfLine: 'auto',
-            },
-        ],
         // warns about leftover log/debugger statements when building for Production
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
